@@ -1,0 +1,57 @@
+.locationIcon{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4284/4284108.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    margin-right: 5px;
+    
+  }
+
+  .locationIcon1{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828256.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    margin-right: 5px;
+    
+  }
+  .positionParent{
+    width: 100%;
+  }
+
+  .locationIcon:hover {
+    cursor: pointer;
+}
+
+.locationIcon1:hover {
+    cursor: pointer;
+}
+
+.positionParent{
+    /* background-color: aqua; */
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+}
+
+.map{
+  z-index: 10;
+}
+. map button{
+    line-height: 30px;
+    height: 30px;
+}
+
+
+.positionParent .positionBox{
+    width: 70%;
+    height: 100%;
+    padding-left: 42px;
+padding-right: 38px;
+}

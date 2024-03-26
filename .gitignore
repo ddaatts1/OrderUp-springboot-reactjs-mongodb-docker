@@ -1,0 +1,37 @@
+# Common IDE configuration files
+.idea/
+.vscode/
+
+# OS specific temporary or log files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Spring Boot build artifacts
+target/
+.classpath
+.project
+
+# ReactJS build artifacts
+food-ordering-frontend-reactjs/build/
+food-ordering-frontend-reactjs/node_modules/
+
+# Dependency management files
+package-lock.json
+npm-shrinkwrap.json
+yarn.lock
+
+# Text editor backups or temporary files
+*.swp
+*.swo
+
+# Docker socket
+.dockerenv
+
+# Environment variable files (modify based on your setup)
+.env.local
+.env.development
+.env.production
+
+

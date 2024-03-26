@@ -1,0 +1,105 @@
+.addbox {
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 0% auto; /* 15% from the top and centered */
+    margin-top: 3%;
+    width: 60rem; /* Could be more or less, depending on screen size */
+    float: right;
+    margin-right: 150px;
+}
+
+.addBoxTitle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.addBox_Title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.25rem 0 0.5rem 1.25rem;
+}
+
+.signup__close {
+    align-items: center;
+    display: grid;
+    justify-items: right;
+    padding: 1.25rem 1.25rem 0.5rem 0;
+}
+
+.addBox__form .element {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    font-size: 0.9375rem;
+    margin-bottom: 0.75rem;
+    padding: 0.500rem 0.5rem;
+    width: 90%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: #756969;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+}
+
+
+.addBox__form .element .id{
+
+    width: 15%;
+    /*background-color: red;*/
+}
+
+.addBox__form .element .name{
+
+    width: 25%;
+    /*background-color: #0b65c2;*/
+}
+
+.addBox__form .element .price{
+
+    width: 15%;
+    /*background-color: aquamarine;*/
+}
+
+.addBox__form .element .status{
+
+    width: 20%;
+    /*background-color: blueviolet;*/
+}
+
+.addBox__form .element .button{
+
+    text-align: center;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.font-link {
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.addBox__form .element .button .btnoff{
+
+    font-weight: bold;
+    color: #e1e4ec;
+    background: #C7390C;
+    border-radius: 11px;
+    width: 25%;
+}
+.addBox__form .element .button .btnedit{
+    color: #e1e4ec;
+    font-weight: bold;
+
+    background: #7F4F40;    border-radius: 11px;
+    width: 25%;
+}
+.addBox__form .element .button .btndelete{
+    color: #e1e4ec;
+    font-weight: bold;
+
+    background: #000000;    border-radius: 11px;
+    width: 25%;
+}

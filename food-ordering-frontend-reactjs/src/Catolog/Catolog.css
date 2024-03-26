@@ -1,0 +1,148 @@
+.Catolog{
+    width: 85%;
+    margin-left: 66px;
+    height:180px ;
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+
+}
+.Catolog .top{
+    width: 100%;
+    height:40%  ;
+}
+
+.Catolog .top .slogan{
+    line-height: 70px;
+    float: left;
+}
+
+.Catolog .Listcategory{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    height: 60%;
+    display: flex;
+
+}
+
+.Catolog .Listcategory .Category{
+    height: 100px;
+    width: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    /* border-radius: 50%; */
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.aCategory .image,.Categoryname{
+    transition: background-color 0.5s ease;
+}
+
+.aCategory:hover > .image{
+
+    background-color: rgb(255, 250, 199);
+}
+
+.aCategory:hover > .Categoryname{
+
+    background-color: rgb(255, 250, 199);
+}
+.Category .Categoryname{
+    /* background-color: cadetblue; */
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: x-small;
+    text-align: center;
+    height: 50%;
+    border-radius: 0% 0% 100% 100%;
+    color: black;
+}
+.Category .Categoryname span{
+    line-height: 50px;
+}
+
+.Category .image{
+
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100% 100% 0% 0%;
+
+}
+.Category .image div{
+    text-align: center;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid grey;
+}
+
+.Category .image div img{
+    width: 30px;
+    height: 30px;
+}
+
+.icon1{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3075/3075977.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 13px;
+    margin-right: 5px;
+  }
+
+.right{
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+
+}
+  
+
+  .select-box {
+    display: flex;
+    position: relative;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .select-box select {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .arrow-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 0.8em;
+    top: 9px;
+
+  }
+  

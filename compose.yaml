@@ -1,0 +1,29 @@
+
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./OrderUp
+    image: ddaatts1/orderup
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+  frontend:
+    build:
+      context: ./food-ordering-frontend-reactjs
+      dockerfile: Dockerfile
+    image: ddaatts1/orderup-frontend
+    ports:
+      - "3000:3000"
+
+volumes:
+  mongodb_data:
+

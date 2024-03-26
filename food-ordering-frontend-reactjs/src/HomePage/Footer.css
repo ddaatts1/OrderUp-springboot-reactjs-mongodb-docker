@@ -1,0 +1,96 @@
+.footerContainer{
+    padding-top: 15px;
+    margin-top: 84px;
+    width: 100%;
+    height: 250px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerContainer .footer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerContainer .footer .doc{
+    width: 25%;
+    height: 100%;
+
+}
+
+.footerContainer .footer .doc a{
+    color: blue;
+}
+.footerContainer .footer .doc li{
+    margin-top: 8px;
+}
+
+.footerContainer .otherPlatform{
+    width: 25%;
+    height: 100%;
+}
+
+.footerContainer .otherPlatform .android{
+    background-image: url(https://shopeefood.vn/app/assets/img/PlayStore-vn.png?a5bc23fd384a415654c9115efebb67db);
+    width: 139px;
+    height: 44px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 28px;
+}
+
+.footerContainer .otherPlatform .ios{
+    background-image: url(https://shopeefood.vn/app/assets/img/AppStore-vn.png?1afe809ef1884945ef4a05dacec7679e);
+    width: 139px;
+    height: 44px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footerContainer .otherPlatform .gallery{
+    background-image: url(https://shopeefood.vn/app/assets/img/Huawei-gallery-vn.png?a17f5e9f3500255a52ec23de20dc115a);
+    width: 139px;
+    height: 44px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footerContainer  .social{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerContainer  .social .socialIcon{
+
+}
+
+.footerContainer  .social .socialIcon .facebook{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    height: 50px;
+
+}
+
+.footerContainer .address{
+    width: 30%;
+    height: 100%;
+    display: flex;
+flex-direction: column;
+
+
+}
+.footerContainer .address span{
+    width: 100%;
+    text-align: right;
+}

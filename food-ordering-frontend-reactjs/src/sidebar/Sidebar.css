@@ -1,0 +1,16 @@
+.list_icon{
+   background-color: black;
+   height: 100%;
+   width: 66px;
+   margin: 0px;
+   padding: 0px;
+   position: fixed;
+}
+
+.list_icon li{
+    padding-top: 42px;
+}
+.list_icon li a *{
+    margin-left: 22px;
+
+}

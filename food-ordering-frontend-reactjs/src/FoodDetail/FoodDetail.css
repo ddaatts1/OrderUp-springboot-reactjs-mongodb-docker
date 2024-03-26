@@ -1,0 +1,155 @@
+
+.foodDetailContainer{
+    margin-top: 22px;
+    display: block;
+    float: right;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.foodDetail{
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foodImage{
+    width: 40%;
+    height: 100%;
+    background-color:#F1F1F1;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodImage img{
+    width: 83%;
+    height: 39%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.foodInfo{
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.foodInfo .foodName{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 23px;
+}
+
+.foodInfo .foodRating{
+    margin-top: 10px;
+}
+
+.foodInfo .foodNote{
+    color: #191919;
+    font-weight:lighter;
+    font-family: 'Inter';
+    font-size: small;
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.foodInfo .foodTime{
+    font-size: small;
+}
+
+.foodInfo .foodPrice{
+
+    margin-top: 10px;
+}
+
+.foodInfo .addToCart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 35px;
+    margin-top: 14px;
+}
+.foodInfo .addToCart button{
+
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background: #726A68;
+    color: white;
+}
+
+.foodInfo .addToCart button:hover{
+    cursor: pointer;
+}
+
+.relateItem{
+    margin-top: 104px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.relateItemCard {
+    background-color: #F1F1F1;
+    width:23% ;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.relateItemCard .relateItemImage{
+    width: 100%;
+    height: 50%;
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relateItemCard .relateItemImage img{
+    width: 70%;
+    height: 63%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.relateItemCard  .relateItemInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.relateItemCard  .relateItemInfo div{
+    margin-top: 10px;
+}
+
+.relateItemCard .relateItemButton{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.relateItemCard .relateItemButton button{
+    border: none;
+    background: #FFFFFF;
+    border-radius: 7px;
+    width: 137px;
+    height: 35px;
+    color: #6F6F6F;
+}
+.relateItemCard .relateItemButton button :hover{
+    cursor: pointer;
+}
+

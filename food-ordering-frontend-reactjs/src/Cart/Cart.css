@@ -1,0 +1,180 @@
+.cart{
+    width: 1074px;
+    height: 100%;
+    float: right;
+    display: flex;
+    font-family: 'Fredoka One', cursive;
+    font-size: smaller;
+
+}
+
+.containerCart{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.divLeft{
+    width: 50%;
+    height: 100%;
+}
+
+
+.divRight{
+    width: 50%;
+    height: 100%;
+}
+
+.cart ul {
+    width: 100%;
+    height: 100%;
+}
+.cart ul li{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.cart ul li .image{
+    width: 50px;
+    height: 100%;
+}
+
+.cart ul li .image img{
+    border-radius: 5%;
+    width: 100px;
+    height: 100%;
+    margin: 0px;
+    float: left;
+}
+
+.cart ul li .namePrice{
+    height: 100%;
+    float: right;
+    width: 77%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart ul li .namePrice .name{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+}
+
+.cart ul li .namePrice .plusDelete{
+
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.cart ul li .namePrice .plusDelete span{
+
+    margin: 10px;
+}
+
+.cart ul li .namePrice .plusDelete button{
+    float: right;
+}
+
+
+.cart ul li .namePrice .plusDelete .quantity{
+    position: relative;
+}
+
+.cart ul li .namePrice .plusDelete .quantity span{
+
+    position: absolute;
+    left: 30px;
+    bottom: 2px;
+}
+
+
+.cart.divRight{
+
+
+}
+
+.cart .divRight .label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart .divRight .hotenSDT{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart .divRight .hotenSDT input{
+    background: #D9D9D9;
+    border-radius: 5px;
+    border: none;
+    width: 201px;
+    height: 28px;
+    padding-inline: 20px;
+}
+
+.cart .divRight .radioButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.cart .divRight .note{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart .divRight .note textarea{
+    background: #D9D9D9;
+    width: 453px;
+    border-radius: 19px;
+    height: 100px;
+    border: none;
+
+}
+
+
+.cart .divRight .confirm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cart .divRight .confirm button{
+    border: none;
+    width: 479px;
+    height: 36px;
+    color: white;
+    background: #8F9459;
+}
+
+
+.shipping
+{
+    width: 100%;
+
+}
+.shipping span{
+    float: right;
+}

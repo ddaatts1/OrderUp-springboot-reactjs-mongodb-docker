@@ -1,0 +1,131 @@
+.addbox {
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 0% auto; /* 15% from the top and centered */
+    margin-top: 3%;
+    width: 50rem; /* Could be more or less, depending on screen size */
+    float: right;
+    margin-right: 200px;
+}
+
+.addBoxTitle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.addBox_Title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.25rem 0 0.5rem 1.25rem;
+}
+
+.signup__close {
+    align-items: center;
+    display: grid;
+    justify-items: right;
+    padding: 1.25rem 1.25rem 0.5rem 0;
+}
+
+.signup__close img:hover {
+    cursor: pointer;
+}
+
+.addBox__subtitle {
+    background: #e5e7eb;
+    height: 1px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.addBox__form {
+    width: 100%;
+    padding: 1.25rem;
+}
+
+.addBox_image {
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.addBox__about {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    font-family: inherit;
+    font-size: 0.9375rem;
+    height: 3.5rem;
+    padding: 0.75rem;
+    width: 90%;
+}
+
+.addBox_image img {
+    border-radius: 0.5rem;
+    height: 6rem;
+    object-fit: cover;
+    width: 6rem;
+}
+
+.addBox_image img:hover {
+    cursor: pointer;
+}
+
+.addBox__upload-container {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    display: block;
+    font-size: 0.9375rem;
+    margin-bottom: 0.75rem;
+    padding: 0.875rem 1rem;
+    width: 90%;
+}
+
+.addBox__upload-container:hover {
+    cursor: pointer;
+}
+
+.addBox__upload-image {
+    display: none !important;
+}
+
+.addBox__form input {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    display: block;
+    font-size: 0.9375rem;
+    margin-bottom: 0.75rem;
+    padding: 0.875rem 1rem;
+    width: 90%;
+}
+
+.addBox__form select {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    display: block;
+    font-size: 0.9375rem;
+    height: 2.625rem;
+    margin-bottom: 0.75rem;
+    outline: none;
+    padding: 0 1rem;
+    width: 90%;
+}
+
+.addBox__btn {
+    background-color: #0b65c2;
+    border: 0;
+    color: #fff;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.25rem auto;
+    outline: none;
+    padding: 0.875rem 1rem;
+}
+
+.addBox__btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.css-13cymwt-control {
+    width: 754px;
+    margin-bottom: 10px;
+}
